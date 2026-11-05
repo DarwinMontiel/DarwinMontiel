@@ -7,7 +7,7 @@
 Construyo **bots que automatizan procesos sobre aplicativos web** y los sistemas que los hacen
 confiables en producción: colas de mensajes, trazabilidad, monitoreo, despliegues y datos.
 
-[![Portafolio](https://img.shields.io/badge/Portafolio-darwinmontiel.github.io-0d9488?logo=githubpages&logoColor=white)](https://darwinmontiel.github.io)
+[![Portafolio](https://img.shields.io/badge/Portafolio-darwinmontiel.github.io-0d9488)](https://darwinmontiel.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Darwin%20Montiel%20Mora-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/darwin-montiel-mora-925216206)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)
