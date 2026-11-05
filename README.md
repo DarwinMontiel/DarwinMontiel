@@ -41,11 +41,11 @@ confiables en producción: colas de mensajes, trazabilidad, monitoreo, despliegu
 ### Cómo se conectan
 
 ```mermaid
-flowchart LR
-    BOT["rpa-orchestrator<br/>bots + colas + monitoreo"] -- "API REST<br/>gestiones y acuerdos" --> CRM["cartera-crm<br/>gestión de cobranza"]
-    CRM -- "exportes de cartera,<br/>pagos y gestiones" --> ETL["cartera-analytics<br/>ETL + KPIs + Power BI"]
-    ETL -- "priorización<br/>de la gestión" --> BOT
-    LLM["llm-gateway"] -. "IA para clasificar<br/>y resumir" .-> BOT
+flowchart TB
+    LLM["llm-gateway<br/>IA local y en la nube"] -. clasificar y resumir .-> BOT
+    BOT["rpa-orchestrator<br/>bots + colas + monitoreo"] -- API REST --> CRM["cartera-crm<br/>gestión de cobranza"]
+    CRM -- exportes --> ETL["cartera-analytics<br/>ETL + KPIs + Power BI"]
+    ETL -- priorización --> BOT
 ```
 
 Los tres primeros modelan una operación de cobranza completa: los bots ejecutan el trabajo
