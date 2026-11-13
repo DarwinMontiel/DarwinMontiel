@@ -86,7 +86,7 @@ flowchart LR
 - **Blue Prism Developer Certification** — SS&C Blue Prism
 - **Automation Developer – Python (niveles I a III)** — Robocorp, 2025
 - **PCAP: Programming Essentials in Python** — Cisco Networking Academy, 2024
-- **DevOps** — Cisco Networking Academy
+- **CyberOps Associate** — Cisco, 2025
 - **Ingeniería de Sistemas** — Universidad ECCI (2020 – 2025) · plan de estudios terminado, pendiente de grado
 
 **Idiomas:** español nativo · inglés pre-intermedio (A2)
