@@ -2,92 +2,97 @@
 
 # Hola, soy Darwin Montiel Mora 👋
 
-### Desarrollador RPA & Backend · Ingeniero de Sistemas · Bogotá, Colombia
+### Desarrollador RPA & Backend · Bogotá, Colombia
+
+**Python · Playwright · Selenium · RabbitMQ · SQL Server · PostgreSQL · Docker**
 
 Construyo **bots que automatizan procesos sobre aplicativos web** y los sistemas que los hacen
-confiables en producción: colas de mensajes, trazabilidad, monitoreo, despliegues y datos.
+confiables en producción: colas con reintentos y DLQ, idempotencia, OCR, monitoreo en tiempo real
+y despliegues automáticos.
 
 [![Portafolio](https://img.shields.io/badge/Portafolio-darwinmontiel.github.io-0d9488)](https://darwinmontiel.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Darwin%20Montiel%20Mora-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/darwin-montiel-mora-925216206)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Ruby on Rails](https://img.shields.io/badge/Rails-D30001?logo=rubyonrails&logoColor=white)
+[![Correo](https://img.shields.io/badge/Correo-darwinmontielm%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:darwinmontielm@gmail.com)
 
 </div>
 
 ---
 
-## Sobre mí
+## En pocas cifras
 
-- 🤖 **3 años** en desarrollo de software, **automatización robótica de procesos (RPA)** y análisis de datos.
-- 🏦 En una **fintech multinacional de gestión de cartera** (Colombia, Chile y Perú) desarrollé bots en
-  Python que operan aplicativos web, integrados con **RabbitMQ** y **PostgreSQL**, y el proyecto de
-  **monitoreo de bots**; además gestioné servidores **Windows y Linux** y los **despliegues a producción**.
-- 🧩 Experiencia en **Ruby on Rails** (Turbo/Stimulus), **Robocorp** y **Blue Prism** (Control Room),
-  y en **BI**: Power BI, DAX, Pandas y Excel avanzado.
-- 🎯 Me interesa la **hiperautomatización**, las **arquitecturas orientadas a mensajes** y la
-  **eficiencia operativa** en cobranza y gestión de cartera.
+| | |
+|---|---|
+| 🤖 **+12.000** | expedientes jurídicos en alcance de 3 bots RPA que sincronizan con 3 bancos (el primero en producción en 5 semanas) |
+| 👁️ **≈65 % → ≈99 %** | de acierto al leer imágenes con OCR (ddddocr, EasyOCR, Tesseract) en un portal público |
+| 🧪 **+400** | pruebas automatizadas con pytest; idempotencia, verificación tras guardar y *circuit breaker* |
+| 📡 **56 colas · 37 servidores · 26 bots** | vigilados por una plataforma de monitoreo en tiempo real (TypeScript, PostgreSQL) |
+| ⚡ **2 días** | para llevar un bot de pagarés desmaterializados a otra cartera y a producción: 981 pagarés |
 
-## Proyectos destacados
+Tres años en desarrollo de software, RPA y datos; los últimos en una **fintech multinacional de gestión
+de cartera** (Colombia, Chile y Perú). Certificado en **Blue Prism** y **Robocorp**.
+
+## Proyectos
+
+Juntos modelan una operación de cobranza ficticia: las obreras trabajan, la torre las vigila, el vigía
+lee lo que los demás no pueden, el faro guía a los gestores y el radar mide los resultados.
 
 | Proyecto | Qué demuestra | Stack |
 |---|---|---|
-| [**rpa-orchestrator**](https://github.com/DarwinMontiel/rpa-orchestrator) · [demo](https://darwinmontiel.github.io/rpa-orchestrator/) | Plataforma de bots RPA a escala: tareas por colas RabbitMQ con reintentos TTL y DLQ, idempotencia, trazabilidad en PostgreSQL, monitoreo de bots y despliegue en Linux y Windows Server | Python · RabbitMQ · PostgreSQL · Playwright · FastAPI · Docker |
-| [**cartera-analytics**](https://github.com/DarwinMontiel/cartera-analytics) · [tablero](https://darwinmontiel.github.io/cartera-analytics/) | ETL de cartera y cobranza: 29 reglas de calidad de datos, modelo estrella, KPIs (PAR30, roll rates, recaudo), Power BI/DAX y reporte Excel; pandas y SQL verificados entre sí | Python · pandas · PostgreSQL · SQL · Power BI · Excel |
-| [**cartera-crm**](https://github.com/DarwinMontiel/cartera-crm) | CRM de cobranza: bandeja de cobro, gestiones y promesas, acuerdos de pago en días hábiles, API REST para bots e integridad garantizada por la base de datos | Ruby on Rails 8 · Hotwire · PostgreSQL · Kamal |
-| [**llm-gateway**](https://github.com/DarwinMontiel/llm-gateway) | Cliente unificado para LLM locales y en la nube con streaming, reintentos y *fallback* | Python · httpx · Ollama · Groq |
-| [**robocorp-order-robot**](https://github.com/DarwinMontiel/robocorp-order-robot) | Bot de la certificación Robocorp: Page Object, reintentos, recibos PDF y resiliencia por pedido | Python · Robocorp · RPA Framework |
+| 🐝 [**colmena-rpa**](https://github.com/DarwinMontiel/colmena-rpa) · [demo](https://darwinmontiel.github.io/colmena-rpa/) | Bots obreros por colas RabbitMQ con reintentos escalonados y DLQ, idempotencia, trazabilidad en PostgreSQL y despliegue como servicio en Linux y Windows Server | Python · RabbitMQ · PostgreSQL · Playwright · FastAPI |
+| 🗼 [**torre-de-control**](https://github.com/DarwinMontiel/torre-de-control) · [demo](https://darwinmontiel.github.io/torre-de-control/) | Monitoreo en tiempo real de bots: colas, latidos, servidores y alertas; API documentada, eventos por WebSocket y SDK en Python | TypeScript · Fastify · Redis · PostgreSQL · WebSocket · Vitest |
+| 👁️ [**vigia-ocr**](https://github.com/DarwinMontiel/vigia-ocr) | Bot Selenium que lee estados en imagen con varios motores OCR y votación, guarda en SQL Server y mide su propio acierto; arquitectura hexagonal | Python · Selenium · OCR · SQL Server · pytest |
+| 📈 [**radar-cartera**](https://github.com/DarwinMontiel/radar-cartera) · [tablero](https://darwinmontiel.github.io/radar-cartera/) | ETL con 29 reglas de calidad de datos, modelo estrella y KPIs (PAR30, roll rates, promesas) en Power BI/DAX y Excel; pandas y SQL verificados entre sí | Python · pandas · PostgreSQL · Power BI |
+| 🏮 [**faro-cobranza**](https://github.com/DarwinMontiel/faro-cobranza) | CRM de cobranza: bandeja por mora, promesas, acuerdos con cuotas en días hábiles (festivos de Colombia) y API REST idempotente para bots | Ruby on Rails 8 · Hotwire · PostgreSQL |
+| 🌉 [**puente-llm**](https://github.com/DarwinMontiel/puente-llm) | Una interfaz para un LLM local y uno en la nube, con streaming, reintentos y respaldo automático | Python · httpx · Ollama · Groq |
+| 🤖 [**robot-pedidos-robocorp**](https://github.com/DarwinMontiel/robot-pedidos-robocorp) | Bot de la certificación Robocorp: Page Object, reintentos, recibos PDF y reporte de turno | Python · Robocorp |
 
 ### Cómo se conectan
 
 ```mermaid
-flowchart TB
-    LLM["llm-gateway<br/>IA local y en la nube"] -. clasificar y resumir .-> BOT
-    BOT["rpa-orchestrator<br/>bots + colas + monitoreo"] -- API REST --> CRM["cartera-crm<br/>gestión de cobranza"]
-    CRM -- exportes --> ETL["cartera-analytics<br/>ETL + KPIs + Power BI"]
-    ETL -- priorización --> BOT
+flowchart LR
+    CRM["🏮 faro-cobranza<br/>gestores y acuerdos"] -- lote de trabajo --> COL["🐝 colmena-rpa<br/>bots obreros"]
+    COL -- API REST --> CRM
+    VIG["👁️ vigia-ocr<br/>estados en imagen"] -- resultados --> CRM
+    COL -. latidos y colas .-> TOR["🗼 torre-de-control<br/>monitoreo y alertas"]
+    VIG -. latidos .-> TOR
+    CRM -- exportes --> RAD["📈 radar-cartera<br/>ETL + KPIs"]
+    RAD -- priorización --> COL
+    LLM["🌉 puente-llm"] -. clasificar respuestas .-> CRM
 ```
-
-Los tres primeros modelan una operación de cobranza completa: los bots ejecutan el trabajo
-repetitivo, el CRM es la herramienta de los gestores y la analítica mide los resultados.
 
 ## Tecnologías
 
-**Lenguajes:** ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-336791?logo=postgresql&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?logo=ruby&logoColor=white)
-
-**RPA y automatización:** ![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?logo=playwright&logoColor=white) ![Robocorp](https://img.shields.io/badge/-Robocorp-00A39E) ![Blue Prism](https://img.shields.io/badge/-Blue%20Prism-0F2C5C)
-
-**Backend y mensajería:** ![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?logo=rabbitmq&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white) ![Rails](https://img.shields.io/badge/-Ruby%20on%20Rails-D30001?logo=rubyonrails&logoColor=white) ![Hotwire](https://img.shields.io/badge/-Hotwire-5CD8E5) ![REST](https://img.shields.io/badge/-APIs%20REST-555555)
-
-**Bases de datos:** ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
-
-**Infraestructura y DevOps:** ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black) ![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
-
-**Datos y BI:** ![pandas](https://img.shields.io/badge/-pandas-150458?logo=pandas&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI%20·%20DAX-F2C811?logo=powerbi&logoColor=black) ![Excel](https://img.shields.io/badge/-Excel%20avanzado-217346?logo=microsoftexcel&logoColor=white)
+| Área | Herramientas |
+|---|---|
+| Lenguajes | Python · TypeScript · SQL · JavaScript · Ruby |
+| RPA y automatización | Playwright · Selenium · OCR (ddddocr, EasyOCR, Tesseract) · Blue Prism · Robocorp · Control Room |
+| Backend y mensajería | RabbitMQ · APIs REST · Node.js · Fastify · Redis · WebSocket · FastAPI · Ruby on Rails |
+| Bases de datos | SQL Server · PostgreSQL · MySQL |
+| DevOps e infraestructura | Docker · nginx · Linux · Windows Server · Git · GitLab · GitHub Actions |
+| Calidad y pruebas | pytest · Vitest · mypy · Ruff |
+| Datos y BI | pandas · Power BI · DAX · Power Query · Excel avanzado |
 
 ## Experiencia
 
 | Período | Rol | Empresa |
 |---|---|---|
-| 2026 | Desarrollador RPA | **Liquitty** · fintech de gestión de cartera (Colombia, Chile y Perú) |
-| 2025 – 2026 | Desarrollador de Software | **Narnaja Business Intelligence** · RPA e IA, dashboards de BI y plataformas web |
-| 2023 – 2024 | Desarrollador de Software | **PulpiFrut** · scripts de datos con pandas, frontend y dashboards de Power BI |
-| 2022 – 2023 | Analista BI Junior (prácticas) | **Emtelco** · línea de cobranzas |
+| May 2026 – Nov 2026 | Desarrollador RPA | **Liquitty** · fintech multinacional de gestión de cartera (Colombia, Chile y Perú) |
+| Sep 2025 – Ene 2026 | Desarrollador de Software | **Narnaja Business Intelligence** · RPA e IA, dashboards de BI y plataformas web |
+| Jun 2023 – Dic 2024 | Desarrollador de Software | **PulpiFrut** · datos con pandas, frontend, Excel y Power BI |
+| Sep 2022 – Feb 2023 | Analista BI Junior (prácticas) | **Emtelco** · línea de cobranzas |
 
-## Certificaciones
+## Certificaciones y formación
 
 - **Blue Prism Developer Certification** — SS&C Blue Prism
-- **Automation Developer – Python** — Robocorp
-- **PCAP – Programming Essentials in Python** — Cisco
-- **DevOps** — Cisco
+- **Automation Developer – Python (niveles I a III)** — Robocorp, 2025
+- **PCAP: Programming Essentials in Python** — Cisco Networking Academy, 2024
+- **DevOps** — Cisco Networking Academy
+- **Ingeniería de Sistemas** — Universidad ECCI (2020 – 2025) · plan de estudios terminado, pendiente de grado
 
-## Formación
-
-**Ingeniería de Sistemas** — Universidad ECCI (2020 – 2025, pensum académico finalizado)
+**Idiomas:** español nativo · inglés pre-intermedio (A2)
 
 ---
 
 <div align="center">
-<sub>¿Hablamos de automatización, backend o datos? Escríbeme por <a href="https://www.linkedin.com/in/darwin-montiel-mora-925216206">LinkedIn</a> · <a href="https://darwinmontiel.github.io">darwinmontiel.github.io</a></sub>
+<sub>¿Hablamos de automatización, backend o datos? · <a href="mailto:darwinmontielm@gmail.com">darwinmontielm@gmail.com</a> · <a href="https://www.linkedin.com/in/darwin-montiel-mora-925216206">LinkedIn</a> · <a href="https://darwinmontiel.github.io">darwinmontiel.github.io</a></sub>
 </div>
