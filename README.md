@@ -56,6 +56,7 @@ lee lo que los demás no pueden, el faro guía a los gestores y el radar mide lo
 | 🏮 [**faro-cobranza**](https://github.com/DarwinMontiel/faro-cobranza) | CRM de cobranza: bandeja por mora, promesas, acuerdos con cuotas en días hábiles (festivos de Colombia) y API REST idempotente para bots | Ruby on Rails 8 · Hotwire · PostgreSQL |
 | 🌉 [**puente-llm**](https://github.com/DarwinMontiel/puente-llm) | Una interfaz para un LLM local y uno en la nube, con streaming, reintentos y respaldo automático | Python · httpx · Ollama · Groq |
 | 🤖 [**robot-pedidos-robocorp**](https://github.com/DarwinMontiel/robot-pedidos-robocorp) | Bot de la certificación Robocorp: Page Object, reintentos, recibos PDF y reporte de turno | Python · Robocorp |
+| ✈️ [**tu-amigo-viajero**](https://github.com/DarwinMontiel/tu-amigo-viajero) · [sitio](https://darwinmontiel.github.io/tu-amigo-viajero/) | Agencia de viajes (proyecto académico en equipo, 2022, revisado en 2026): simulador de pago a cuotas con tabla de amortización, formularios validados, contraste AA y pruebas en CI | HTML · Sass · JavaScript · Bootstrap |
 
 ### Cómo se conectan
 
