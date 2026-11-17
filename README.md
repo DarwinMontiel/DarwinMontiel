@@ -31,6 +31,17 @@ y despliegues automáticos.
 Tres años en desarrollo de software, RPA y datos; los últimos en una **fintech multinacional de gestión
 de cartera** (Colombia, Chile y Perú). Certificado en **Blue Prism** y **Robocorp**.
 
+## Cómo trabajo
+
+- **Fiabilidad por diseño.** Idempotencia, verificación tras guardar, reintentos con espera y colas de
+  mensajes muertos. Si un bot no está seguro de un dato, lo dice en vez de inventarlo.
+- **Observabilidad desde el inicio.** Latidos, colas y alertas con escalamiento: un bot caído se nota
+  en minutos, no al otro día.
+- **Calidad automatizada.** Pruebas, tipos estrictos, lint e integración continua en cada repositorio,
+  con Dependabot y detección de secretos.
+- **Decisiones a la vista.** Cada proyecto documenta su arquitectura y sus decisiones (ADR), cómo
+  ejecutarlo, probarlo y desplegarlo.
+
 ## Proyectos
 
 Juntos modelan una operación de cobranza ficticia: las obreras trabajan, la torre las vigila, el vigía
@@ -40,7 +51,7 @@ lee lo que los demás no pueden, el faro guía a los gestores y el radar mide lo
 |---|---|---|
 | 🐝 [**colmena-rpa**](https://github.com/DarwinMontiel/colmena-rpa) · [demo](https://darwinmontiel.github.io/colmena-rpa/) | Bots obreros por colas RabbitMQ con reintentos escalonados y DLQ, idempotencia, trazabilidad en PostgreSQL y despliegue como servicio en Linux y Windows Server | Python · RabbitMQ · PostgreSQL · Playwright · FastAPI |
 | 🗼 [**torre-de-control**](https://github.com/DarwinMontiel/torre-de-control) · [demo](https://darwinmontiel.github.io/torre-de-control/) | Monitoreo en tiempo real de bots: colas, latidos, servidores y alertas; API documentada, eventos por WebSocket y SDK en Python | TypeScript · Fastify · Redis · PostgreSQL · WebSocket · Vitest |
-| 👁️ [**vigia-ocr**](https://github.com/DarwinMontiel/vigia-ocr) | Bot Selenium que lee estados en imagen con varios motores OCR y votación, guarda en SQL Server y mide su propio acierto; arquitectura hexagonal | Python · Selenium · OCR · SQL Server · pytest |
+| 👁️ [**vigia-ocr**](https://github.com/DarwinMontiel/vigia-ocr) · [demo](https://darwinmontiel.github.io/vigia-ocr/) | Bot Selenium que lee estados en imagen con varios motores OCR y votación, guarda en SQL Server y mide su propio acierto; arquitectura hexagonal | Python · Selenium · OCR · SQL Server · pytest |
 | 📈 [**radar-cartera**](https://github.com/DarwinMontiel/radar-cartera) · [tablero](https://darwinmontiel.github.io/radar-cartera/) | ETL con 29 reglas de calidad de datos, modelo estrella y KPIs (PAR30, roll rates, promesas) en Power BI/DAX y Excel; pandas y SQL verificados entre sí | Python · pandas · PostgreSQL · Power BI |
 | 🏮 [**faro-cobranza**](https://github.com/DarwinMontiel/faro-cobranza) | CRM de cobranza: bandeja por mora, promesas, acuerdos con cuotas en días hábiles (festivos de Colombia) y API REST idempotente para bots | Ruby on Rails 8 · Hotwire · PostgreSQL |
 | 🌉 [**puente-llm**](https://github.com/DarwinMontiel/puente-llm) | Una interfaz para un LLM local y uno en la nube, con streaming, reintentos y respaldo automático | Python · httpx · Ollama · Groq |
@@ -79,7 +90,7 @@ flowchart LR
 | May 2026 – Nov 2026 | Desarrollador RPA | **Liquitty** · fintech multinacional de gestión de cartera (Colombia, Chile y Perú) |
 | Sep 2025 – Ene 2026 | Desarrollador de Software | **Narnaja Business Intelligence** · RPA e IA, dashboards de BI y plataformas web |
 | Jun 2023 – Dic 2024 | Desarrollador de Software | **PulpiFrut** · datos con pandas, frontend, Excel y Power BI |
-| Sep 2022 – Feb 2023 | Analista BI Junior (prácticas) | **Emtelco** · línea de cobranzas |
+| Sep 2022 – Feb 2023 | Analista BI (prácticas) | **Emtelco** · línea de cobranzas |
 
 ## Certificaciones y formación
 
