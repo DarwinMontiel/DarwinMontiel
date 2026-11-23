@@ -57,7 +57,7 @@ lee lo que los demás no pueden, el faro guía a los gestores y el radar mide lo
 | 🌉 [**puente-llm**](https://github.com/DarwinMontiel/puente-llm) | Una interfaz para un LLM local y uno en la nube, con streaming, reintentos y respaldo automático | Python · httpx · Ollama · Groq |
 | 📊 [**control-valor-ganado**](https://github.com/DarwinMontiel/control-valor-ganado) | Control de proyectos con Valor Ganado (EVM): CPI, SPI, EAC y alertas con semáforo; los casos borde devuelven `null` explicado, nunca un 0 inventado; Swagger y Docker Compose | Python · FastAPI · PostgreSQL · React · TypeScript |
 | 🤖 [**robot-pedidos-robocorp**](https://github.com/DarwinMontiel/robot-pedidos-robocorp) | Bot de la certificación Robocorp: Page Object, reintentos, recibos PDF y reporte de turno | Python · Robocorp |
-| ✈️ [**tu-amigo-viajero**](https://github.com/DarwinMontiel/tu-amigo-viajero) · [sitio](https://darwinmontiel.github.io/tu-amigo-viajero/) | Agencia de viajes (proyecto académico en equipo, 2022, revisado en 2026): buscador que compara vuelos y hoteles reales en seis páginas con clima y tasa de cambio en vivo, simulador de pago a cuotas, contraste AA y pruebas en CI | HTML · Sass · JavaScript · APIs REST |
+| ✈️ [**tu-amigo-viajero**](https://github.com/DarwinMontiel/tu-amigo-viajero) · [sitio](https://darwinmontiel.github.io/tu-amigo-viajero/) | Comparador de precios de viaje: los 3 más baratos de cada plataforma (Google Flights, Aviasales, Booking, Expedia, Agoda, Airbnb…) en vuelos, hoteles y paquetes, con asistente de IA gratuita, API en Cloudflare Workers con caché y cuotas, modo demo, WCAG AA y e2e con axe. Nació como proyecto académico en equipo (2022) | TypeScript · React · Hono · Cloudflare Workers · IA |
 
 ### Cómo se conectan
 
