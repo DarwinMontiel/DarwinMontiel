@@ -57,7 +57,7 @@ lee lo que los demás no pueden, el faro guía a los gestores y el radar mide lo
 | 🌉 [**puente-llm**](https://github.com/DarwinMontiel/puente-llm) | Una interfaz para un LLM local y uno en la nube, con streaming, reintentos y respaldo automático | Python · httpx · Ollama · Groq |
 | 📊 [**control-valor-ganado**](https://github.com/DarwinMontiel/control-valor-ganado) | Control de proyectos con Valor Ganado (EVM): CPI, SPI, EAC y alertas con semáforo; los casos borde devuelven `null` explicado, nunca un 0 inventado; Swagger y Docker Compose | Python · FastAPI · PostgreSQL · React · TypeScript |
 | 🤖 [**robot-pedidos-robocorp**](https://github.com/DarwinMontiel/robot-pedidos-robocorp) | Bot de la certificación Robocorp: Page Object, reintentos, recibos PDF y reporte de turno | Python · Robocorp |
-| ✈️ [**tu-amigo-viajero**](https://github.com/DarwinMontiel/tu-amigo-viajero) · [sitio](https://darwinmontiel.github.io/tu-amigo-viajero/) | Agencia de viajes (proyecto académico en equipo, 2022, revisado en 2026): simulador de pago a cuotas con tabla de amortización, formularios validados, contraste AA y pruebas en CI | HTML · Sass · JavaScript · Bootstrap |
+| ✈️ [**tu-amigo-viajero**](https://github.com/DarwinMontiel/tu-amigo-viajero) · [sitio](https://darwinmontiel.github.io/tu-amigo-viajero/) | Agencia de viajes (proyecto académico en equipo, 2022, revisado en 2026): buscador que compara vuelos y hoteles reales en seis páginas con clima y tasa de cambio en vivo, simulador de pago a cuotas, contraste AA y pruebas en CI | HTML · Sass · JavaScript · APIs REST |
 
 ### Cómo se conectan
 
